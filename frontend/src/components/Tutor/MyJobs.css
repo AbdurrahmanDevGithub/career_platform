@@ -1,0 +1,101 @@
+/* Container for the entire page */
+.myjobs-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the page */
+  min-height: 100vh; /* Ensure the container covers the full viewport */
+}
+
+/* Links section */
+.myjobs-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.myjobs-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.myjobs-links a:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+
+/* Title for the page */
+.myjobs-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+/* Section for uploaded jobs */
+.uploaded-jobs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card style for each job entry in uploaded jobs */
+.uploaded-jobs .job-card {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.uploaded-jobs .job-card:hover {
+  transform: translateY(-5px); /* Hover effect for job card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Job card title */
+.uploaded-jobs .job-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Job card description */
+.uploaded-jobs .job-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .myjobs-links {
+    flex-direction: column; /* Stack the links on smaller screens */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .uploaded-jobs {
+    margin-top: 20px;
+  }
+
+  .uploaded-jobs .job-card {
+    padding: 12px; /* Less padding on mobile */
+  }
+
+  .myjobs-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .myjobs-title {
+    font-size: 1.5rem;
+  }
+
+  .uploaded-jobs .job-card {
+    padding: 10px; 
+  }
+}

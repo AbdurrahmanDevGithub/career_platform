@@ -1,0 +1,99 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f5f7fa;
+}
+
+/* Container for the signup form */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: linear-gradient(to bottom left, #00c6ff, #0072ff); */
+}
+
+/* Signup form styles */
+.signup-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form heading */
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Label styles */
+.signup-form label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus styles */
+.signup-form input:focus {
+  outline: none;
+  border-color: #0072ff;
+  box-shadow: 0 0 5px rgba(0, 114, 255, 0.5);
+}
+
+/* Submit button */
+.signup-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.signup-form button:hover {
+  /* background: #005ecb; */
+}
+
+/* Link to login */
+.signup-form a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0072ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Link hover effect */
+.signup-form a:hover {
+  text-decoration: underline;
+}
+
+/* Toast container spacing */
+.Toastify__toast-container {
+  margin-top: 1rem;
+}

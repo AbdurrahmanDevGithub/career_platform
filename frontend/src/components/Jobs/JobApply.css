@@ -1,0 +1,36 @@
+.job-apply__form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.job-apply__label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.job-apply__input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.job-apply__submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-apply__submit-btn:hover {
+  background-color: #0056b3;
+}
