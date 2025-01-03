@@ -1,11 +1,10 @@
-Container for the entire page
 .view-applications-container {
   padding: 20px;
-  background-color: #f5f5f5; /* Light background for the page */
-  min-height: 100vh; /* Ensure the container covers the full viewport */
+  background-color: #f5f5f5;
+  min-height: 100vh; 
 }
 
-/* Title for the page */
+
 .view-applications-container h1 {
   text-align: center;
   font-size: 2rem;
@@ -14,7 +13,7 @@ Container for the entire page
   font-weight: bold;
 }
 
-/* Loading indicator */
+
 .loading-indicator {
   display: flex;
   justify-content: center;
@@ -27,7 +26,6 @@ Container for the entire page
   margin-bottom: 10px;
 }
 
-/* Job application card */
 .job-application {
   background-color: white;
   border-radius: 10px;
@@ -39,7 +37,7 @@ Container for the entire page
 }
 
 .job-application:hover {
-  transform: translateY(-5px); /* Hover effect for the job card */
+  transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -49,15 +47,13 @@ Container for the entire page
   line-height: 1.6;
 }
 
-/* Styling for the no applications message */
 .no-applications {
   text-align: center;
   font-size: 1.2rem;
-  color: #ff4d4d; /* Red color for error message */
+  color: #ff4d4d;
   margin-top: 50px;
 }
 
-/* Responsive design adjustments */
 @media (max-width: 768px) {
   .view-applications-container h1 {
     font-size: 1.8rem;

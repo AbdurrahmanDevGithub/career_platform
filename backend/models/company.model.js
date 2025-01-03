@@ -30,7 +30,7 @@ const companySchema = mongoose.Schema({
 });
 
 
-//HASHIN PASSWRD
+//HASHING PASSWRD
 companySchema.pre('save',async function(next){
   let company = this
   if(company.isModified('password')){

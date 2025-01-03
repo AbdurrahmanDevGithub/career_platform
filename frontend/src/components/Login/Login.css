@@ -1,4 +1,3 @@
-/* General styles */
 body {
   margin: 0;
   padding: 0;
@@ -6,16 +5,14 @@ body {
   background: #f9f9f9;
 }
 
-/* Container for the login form */
+
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background: linear-gradient(to bottom right, #6a11cb, #2575fc); */
-}
+  }
 
-/* Login form styles */
 .login-form {
   background: white;
   padding: 2rem;
@@ -25,7 +22,7 @@ body {
   max-width: 400px;
 }
 
-/* Form heading */
+
 .login-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -33,7 +30,7 @@ body {
   color: #333;
 }
 
-/* Label styles */
+
 .login-form label {
   font-size: 1rem;
   color: #555;
@@ -41,7 +38,7 @@ body {
   display: block;
 }
 
-/* Input fields */
+
 .login-form input {
   width: 100%;
   padding: 0.8rem;
@@ -53,14 +50,14 @@ body {
   transition: border-color 0.3s ease;
 }
 
-/* Input focus styles */
+
 .login-form input:focus {
   outline: none;
   border-color: #2575fc;
   box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
 }
 
-/* Submit button */
+
 .login-form button {
   width: 100%;
   padding: 0.8rem;
@@ -73,12 +70,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Button hover effect */
 .login-form button:hover {
-  /* background: #1a5ecc; */
+
 }
 
-/* Link to signup */
 .login-form a {
   display: inline-block;
   margin-top: 1rem;
@@ -88,12 +83,12 @@ body {
   text-align: center;
 }
 
-/* Link hover effect */
+
 .login-form a:hover {
   text-decoration: underline;
 }
 
-/* Toast container spacing */
+
 .Toastify__toast-container {
   margin-top: 1rem;
 }

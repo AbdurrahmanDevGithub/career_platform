@@ -23,11 +23,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect on categories */
 .categories li:hover {
   background-color: #007bff;
   color: white;
-  transform: scale(1.05); /* Slight scale up on hover */
+  transform: scale(1.05); 
 }
 
 .jobs {
@@ -47,10 +46,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect on job cards */
+
 .job-card:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-  transform: translateY(-5px); /* Lift the job card slightly */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); 
 }
 
 .job-card img {
@@ -60,9 +59,9 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect on job images */
+
 .job-card img:hover {
-  opacity: 0.8; /* Slight fade effect */
+  opacity: 0.8;
 }
 
 .job-card h3 {
@@ -72,8 +71,8 @@
   transition: color 0.3s ease-in-out;
 }
 
-/* Hover effect on job title */
+
 .job-card:hover h3 {
-  color: #007bff; /* Change color of the title on hover */
+  color: #007bff; 
 }
 
