@@ -78,7 +78,7 @@ const SignUp = () => {
         />
         <button type="submit">Create Account</button>
         <p>
-          Already have an account? <Link to="/login">Go to login</Link>
+          Already have an account?  <Link to="/login">Go to login</Link>
         </p>
       </form>
       <ToastContainer />
