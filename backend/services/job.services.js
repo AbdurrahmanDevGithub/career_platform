@@ -22,6 +22,7 @@ const jobApply=async(applicationData)=>{
     if(!await applyJob.save()){
       return {error:"Job not applied! ",satuscode:409}
     }
+    
     return applyJob;
   }catch(error){
     console.log(error);
